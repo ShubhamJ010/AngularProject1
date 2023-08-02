@@ -9,6 +9,10 @@ import { Customer } from './customer';
 export class CustomaerComponent {
   customer: Customer;
   customer1: Customer[];
+
+  customerinfo(){
+    alert(`id is ${this.customer.id}\n name is ${this.customer.name} \nsalary is ${this.customer.salary}`)
+  }
   constructor() {
     this.customer = {
       'id': 10001,
