@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class PipeExampleComponent {
   n1: number;
+  n2: number;
+  n3: number;
   constructor() {
-    this.n1 = 110;
+    this.n1 = 2;
+    this.n2 = 3;
+    this.n3 = 4000;
   }
 }

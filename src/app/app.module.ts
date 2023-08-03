@@ -10,6 +10,7 @@ import { InterestCalculationComponent } from './interest-calculation/interest-ca
 import { FormsModule } from '@angular/forms';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { SqrtPrgPipe } from './pipe-example/pipe/sqrt-prg.pipe';
+import { PowerPipe } from './pipe-example/pipe/power.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SqrtPrgPipe } from './pipe-example/pipe/sqrt-prg.pipe';
     UserComponent,
     InterestCalculationComponent,
     PipeExampleComponent,
-    SqrtPrgPipe
+    SqrtPrgPipe,
+    PowerPipe
   ],
   imports: [
     BrowserModule,
