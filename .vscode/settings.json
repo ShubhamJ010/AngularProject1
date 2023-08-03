@@ -24,7 +24,10 @@
     ".angular/cache/*.6": true,
     ".angular/cache/*.*": true,
     "16.1.6": true,
-    "**/*.6": true
+    "**/*.6": true,
+    ".vscode": true,
+    ".angular/cache": true,
+    ".angular": true
   },
   "explorerExclude.backup": {}
 }
