@@ -8,6 +8,7 @@ import { CustomaerComponent } from './customaer/customaer.component';
 import { UserComponent } from './user/user.component';
 import { InterestCalculationComponent } from './interest-calculation/interest-calculation.component';
 import { FormsModule } from '@angular/forms';
+import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     CalculatorComponent,
     CustomaerComponent,
     UserComponent,
-    InterestCalculationComponent
+    InterestCalculationComponent,
+    PipeExampleComponent
   ],
   imports: [
     BrowserModule,
